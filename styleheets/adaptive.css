@@ -1,0 +1,322 @@
+@media (min-width: 300px ) and (max-width: 420px ) { 
+    .waviy {
+        font-size:20vw;
+    }
+
+    .marquee{
+        font-size: 36px;
+        line-height: 1.3;
+        font-family: "InterRegularItalic";
+        padding: 0px 0;
+        color: #fff;
+        white-space: nowrap;
+        animation: marquee 16s infinite linear; /* notice the infinite */
+    }
+
+    .kran {
+        display: none;
+    }
+
+    .ramka-div {
+        top: 2vw;
+        width: 50vw;
+        height: 50vw;
+        position: relative;
+    }
+  
+    .cub1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+       
+        width: 50vw;
+        height: 50vw;
+        box-sizing: border-box;
+        border: 3.5vw solid rgb(105, 97, 90);
+    
+        animation:.9s borderColorChange2 0.9s steps(2) alternate infinite;
+    
+        
+    }
+    .cub1_mini {
+        animation-delay: 0s;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40.5vw;
+        height: 40.5vw;
+        box-sizing: border-box;
+        border: 9px solid rgb(105, 97, 90);
+        animation:.9s  borderColorChange2 .9s steps(2) alternate infinite;
+    }
+    
+    
+
+    .cub2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    width: 32.5vw;
+    height: 32.5vw;
+    box-sizing: border-box;
+    border: 2.8vw solid rgb(105, 97, 90);
+   
+    animation:.9s borderColorChange2 .9s steps(3) alternate infinite ;
+}
+.cub1_mini2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    width: 25vw;
+    height: 25vw;
+    box-sizing: border-box;
+    border: 1vw solid rgb(105, 97, 90);
+
+    animation:.9s borderColorChange2 .9s steps(4) alternate infinite ;
+}
+
+
+
+.cub3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    width: 19vw;
+    height: 19vw;
+    box-sizing: border-box;
+    border: 2vw solid rgb(105, 97, 90);
+    animation:.9s borderColorChange2 .9s steps(5) alternate infinite ;
+}
+.cub3_mini3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    width: 14vw;
+    height: 14vw;
+    box-sizing: border-box;
+    border: 0.8vw solid rgb(105, 97, 90);
+    animation: .9s borderColorChange2 .9s steps(6) alternate infinite ;
+}
+
+
+.cub4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    width: 10vw;
+    height: 10vw;
+    box-sizing: border-box;
+    border: 1vw solid rgb(105, 97, 90);
+    animation: .9s borderColorChange2 .9s steps(7) alternate infinite  ;
+  }
+  .cub4_mini4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+    width: 7.5vw;
+    height: 7.5vw;
+    box-sizing: border-box;
+    border: 0.2vw solid rgb(105, 97, 90);
+    animation: .9s borderColorChange2 .9s steps(8) alternate infinite;
+}
+
+
+
+
+
+
+
+
+.ramka2 {
+  top: -50vw;
+  left: 52vw;
+  position: absolute ;
+  width: 50vw;
+  height: 51.5vw;
+  background-image: url(../images/a4.svg);
+
+  transition: 0.5s;
+  background-size: cover;
+  }
+
+
+
+
+
+  .ramka3 {
+    position: absolute;
+    top: 1.6vw;
+  left: 52vw;
+  width: 49.5vw;
+  height: 49.5vw;
+  background-image: url(../images/b1.svg);
+  background-size: cover;
+  }
+  .krug1{
+   
+    position: absolute;
+    top: 26vw;
+    left: 10vw;
+    animation:10s mercury infinite linear;
+    transform-origin:17vw 0.1vw;
+  
+  
+    box-sizing: border-box;
+  border: 0.2vw solid rgb(255, 255, 255);
+  background: rgb(177, 92, 35);
+  width: 10vw;
+  height: 10vw;
+  border-radius: 100%;
+  }
+  .krug2{
+    
+    position: absolute;
+    top: 26vw;
+    left: 10vw;
+    animation:10s mercury infinite linear;
+    transform-origin:17vw 0.1vw;
+    animation-delay: 1.2s;
+  
+    box-sizing: border-box;
+  border: 0.2vw solid rgb(255, 255, 255);
+  background: rgb(177, 92, 35);
+  width: 8vw;
+  height: 8vw;
+  border-radius: 100%;
+  }
+  .krug3{
+    display: block;
+    
+    position: absolute;
+    top: 26vw;
+    left: 10vw;
+    animation:10s mercury infinite linear;
+    transform-origin:17vw 0.1vw;
+    animation-delay: 2.2s;
+  
+    box-sizing: border-box;
+  border: 0.2vw solid rgb(255, 255, 255);
+  background: rgb(177, 92, 35);
+  width: 6.7vw;
+  height: 6.7vw;
+  border-radius: 100%;
+  }
+  
+
+  .tr {
+ 
+    position: absolute;
+    z-index: 3;
+    width: 38vw;
+    left: 5vw;
+    margin-top: 24.5vw;
+  }
+  
+  .i1 {
+    width: 38vw;
+    left: 5vw;
+    top: 9vw;
+    }
+    .i2 {
+      width: 30vw;
+      left: 9vw;
+      top: 12.5vw;
+    }
+    .i3 {
+      width: 22vw;
+      left: 13vw;
+      top: 16vw;
+    }
+    .ramka4 {
+      width: 52vw;
+      height: 51vw;
+      position: absolute;
+      background: rgb(105, 97, 90);
+      top: 179.5vw;
+      
+    }
+
+
+
+    .ramka5 {
+      position: relative;
+      top: 1.2vw;
+      left: 0vw;
+    width: 52vw;
+    height: 49.7vw;
+        background-image: url(../images/ramka5bg.svg);
+       
+        transition: 0.5s;
+        background-size: cover;
+    }
+    .ramka5:hover {
+      background-image: url(../images/ramka5txt.svg);
+       
+    }
+
+
+    .ramka6 {
+      top: 1.4vw;
+      left: 52vw;
+      position: relative;
+      width: 49vw;
+      height: 51vw;
+    }
+    .el-all {
+      font-size: 6.8vw;
+      line-height: 8.4vw;
+    }
+
+
+
+
+    .block2 {
+      position: relative;
+      top: 20vw;
+    }
+    .cont1 {
+      position: relative;
+left: 1vw;
+      z-index: 2;
+      padding: 1vw;
+      display: flex;
+      justify-content: center;
+      background: rgb(105, 97, 90);
+      width: 49vw;
+    height: 25vw;
+    }
+    .cont_1ramka {
+      display: flex;
+      text-align: center;
+      align-items: center;
+     padding: 5vw 4vw;
+      box-sizing: border-box;
+    border: 3px solid rgb(255, 255, 255);
+    }
+
+    .txt-cont1 {
+      width: 39.18495297805643vw;
+      font-family: "InterThin";
+      color: rgb(255, 255, 255);
+      font-size:2.8213166144200628vw;
+    }
+
+    .marquee-container2 {
+      margin-top: 13vw;
+    }
+    
+}

@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: "InterRegular";
+    src: url("../fonts/InterRegular.ttf")  format('truetype'),
+    url('../fonts/InterRegular.woff') format('woff');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "InterLight";
+    src: url("../fonts/Inter-LightBETA.ttf")  format('truetype'),
+    url('../fonts/Inter-LightBETA.woff') format('woff');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "InterThin";
+    src: url("../fonts/Inter-ThinBETA.ttf")  format('truetype'),
+    url('../fonts/Inter-ThinBETA.woff') format('woff');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "InterRegularItalic";
+    src: url("../fonts/Inter-MediumItalic.ttf")  format('truetype'),
+    url('../fonts/Inter-MediumItalic.woff') format('woff');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "InterBlack";
+    src: url("../fonts/Inter-Black.ttf")  format('truetype'),
+    url('../fonts/Inter-Black.woff') format('woff');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "ExtraLightItalic";
+    src: url("../fonts/Inter-ExtraLightItalicBETA.ttf")  format('truetype'),
+    url('../fonts/Inter-ExtraLightItalicBETA.woff') format('woff');
+    font-style: normal;
+  }

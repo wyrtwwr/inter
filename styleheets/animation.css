@@ -1,0 +1,103 @@
+@keyframes waviy {
+    0%,40%,100% {
+      font-weight: 400;
+    }
+    20% {
+      font-weight: 900;
+    }
+  }
+  
+
+
+  @keyframes scroll2{
+    0% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+
+  @keyframes scroll{
+    0% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+
+  @keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+}
+
+
+
+@keyframes marquee1 {
+     0% {
+         transform: translateX(100%);
+     }
+     100% {
+         transform: translateX(-100%);
+     }
+ }
+
+ @keyframes marquee2 {
+     0% {
+         transform: translateX(0%);
+     }
+     100% {
+         transform: translateX(-200%);
+     }
+ }
+ @keyframes circle-to-square{
+    0% {
+        width: 1.2vw;
+        height: 9vw;
+        
+    }
+ 
+    100% {
+        width: 1.2vw;
+        height: 18vw;
+    }
+ }
+
+ @keyframes borderColorChange {
+    0% {
+      border-color: rgb(105, 97, 90);
+    }
+   
+    100% {
+      border-color: rgba(174, 92, 36, 1);
+    }
+  }
+
+  @keyframes borderColorChange2 {
+    0% {
+      border-color: rgb(105, 97, 90);
+    }
+  
+    100% {
+      border-color: rgba(174, 92, 36, 1);
+    }
+  }
+
+  @keyframes mercury{
+    from{
+      transform:rotate(0)
+    }
+    to{
+      transform:rotate(-360deg)
+    }
+  }
+  
